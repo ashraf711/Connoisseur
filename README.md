@@ -4,7 +4,7 @@ This project was the culmination of my work with Convolutional Neural Networks a
 
 The application is able automatically describe the content of images. To do this, it had to be capable of prerceiving contextual subtleties in images, and to relate observations to both the scene and the real world.
 
-<img src="./Images/skifull.png">
+<img src="skifull.png">
 
 ## Data Overview
 
