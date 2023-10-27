@@ -27,14 +27,14 @@ The model architecture was inspired by the <a herf="Show, Attend and Tell">Show,
 
     The base 64 image is first converted to a tensor and passed through the image_features_extract_model() function, i.e, the InceptionV3 model.
 
-<img src="./Images/processInput.png">
+<img src="processInput.png">
 
     The caption is then sequentially generated using Beam Search (An optimization of best-first search) of width three. This significantly improves the accuracy of the output caption.
 
-<img src="./Images/beamSearch.png">
+<img src="beamSearch.png">
 
     The following image provides a visual representation of how the model works.
-<img src="./Images/attentionVisualization.png">
+<img src="attentionVisualization.png">
 
 ## Future Work/ Improvements:
 
